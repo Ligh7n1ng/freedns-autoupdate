@@ -14,4 +14,4 @@ You need **bash**, **grep** and **curl** to use this script.
   ```
   ./freedns-autoupdate.sh https://freedns.afraid.org/dynamic/update.php?CGe6JyFuTwyOAVuSxMKTPSchIukA6mVnArVOwBH2G9X9 /home/user/ip.log
   ```
-4. Use **cron** or **systemd.timer** to periodically run the script to automatic update DDNS.
+4. Use **cron** or **systemd.timer** to periodically run the script to automatic update DDNS. Example of systemd units you can find in `systemd/` directory.

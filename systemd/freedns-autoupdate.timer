@@ -1,0 +1,11 @@
+[Unit]
+Description=Run freedns.afraid.org DDNS update about every 15 mins
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=12min
+RandomizedDelaySec=180
+Unit=freedns-autoupdate.service
+
+[Install]
+WantedBy=timers.target

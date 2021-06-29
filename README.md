@@ -1,4 +1,4 @@
-# freedns-autoupdate
+# DDNS update script for freedns.afraid.org
 Autoupdate script for freedns.afraid.org
 
 ## Requirements

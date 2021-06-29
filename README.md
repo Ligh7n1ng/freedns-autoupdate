@@ -12,6 +12,6 @@ You need **bash**, **grep** and **curl** to use this script.
 3. Run the script `./freedns-autoupdate.sh <Direct update URL> [<Path to log file with current IP address>]`
   #### Example
   ```
-  ./freedns-autoupdate.sh https://freedns.afraid.org/dynamic/update.php?CyTXMbtq5cPnLjEg5vKHTPDE /home/user/ip.log
+  ./freedns-autoupdate.sh https://freedns.afraid.org/dynamic/update.php?CGe6JyFuTwyOAVuSxMKTPSchIukA6mVnArVOwBH2G9X9 /home/user/ip.log
   ```
 4. Use **cron** or **systemd.timer** to periodically run the script to automatic update DDNS.

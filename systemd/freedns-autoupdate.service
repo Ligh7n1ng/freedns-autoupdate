@@ -6,4 +6,4 @@ Type=oneshot
 User=scriptsuser
 Group=scriptsuser
 WorkingDirectory=/usr/local/bin/
-ExecStart=/bin/bash /usr/local/bin/freedns-autoupdate.sh https://freedns.afraid.org/dynamic/update.php?CGe6JyFuTwyOAVuSxMKTPSchIukA6mVnArVOwBH2G9X9 "/example/dir/ip.log"
+ExecStart=/bin/bash /usr/local/bin/freedns-autoupdate.sh https://freedns.afraid.org/dynamic/update.php?CGe6JyFuTwyOAVuSxMKTPSchIukA6mVnArVOwBH2G9X9 "/example/dir/dds-ip.log"
